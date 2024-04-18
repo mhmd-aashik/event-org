@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import React from "react";
 
 const Review = () => {
@@ -30,10 +30,12 @@ const Review = () => {
                 >
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
-                      <img
+                      <Image
                         src="https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Kanye West"
+                        width={48}
+                        height={48}
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
@@ -60,10 +62,12 @@ const Review = () => {
                 >
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
-                      <img
+                      <Image
                         src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Tim Cook"
+                        width={48}
+                        height={48}
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
@@ -90,10 +94,12 @@ const Review = () => {
                 >
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
-                      <img
+                      <Image
                         src="https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Kanye West"
+                        width={48}
+                        height={48}
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
@@ -120,10 +126,12 @@ const Review = () => {
                 >
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
-                      <img
+                      <Image
                         src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Tim Cook"
+                        width={48}
+                        height={48}
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
@@ -150,10 +158,12 @@ const Review = () => {
                 <a href="https://twitter.com/paraga" className="cursor-pointer">
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
-                      <img
+                      <Image
                         src="https://pbs.twimg.com/profile_images/1375285353146327052/y6jeByyD_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Parag Agrawal"
+                        width={48}
+                        height={48}
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
@@ -181,10 +191,12 @@ const Review = () => {
                 >
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
-                      <img
+                      <Image
                         src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Tim Cook"
+                        width={48}
+                        height={48}
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
@@ -208,10 +220,12 @@ const Review = () => {
                 <a href="https://twitter.com/paraga" className="cursor-pointer">
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
-                      <img
+                      <Image
                         src="https://pbs.twimg.com/profile_images/1375285353146327052/y6jeByyD_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Parag Agrawal"
+                        width={48}
+                        height={48}
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
@@ -239,10 +253,12 @@ const Review = () => {
                 >
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
-                      <img
+                      <Image
                         src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Tim Cook"
+                        width={48}
+                        height={48}
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
@@ -272,10 +288,12 @@ const Review = () => {
                 >
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
-                      <img
+                      <Image
                         src="https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Satya Nadella"
+                        width={48}
+                        height={48}
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
@@ -305,10 +323,12 @@ const Review = () => {
                 >
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
-                      <img
+                      <Image
                         src="https://pbs.twimg.com/profile_images/516916920482672641/3jCeLgFb_400x400.jpeg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Dan Schulman"
+                        width={48}
+                        height={48}
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
@@ -334,10 +354,12 @@ const Review = () => {
                 >
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
-                      <img
+                      <Image
                         src="https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Satya Nadella"
+                        width={48}
+                        height={48}
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
@@ -358,7 +380,6 @@ const Review = () => {
                 </a>
               </div>
             </li>
-            
           </ul>
         </div>
       </div>
