@@ -7,12 +7,12 @@ import VideoTitleSection from "@/components/shared/VideoTitleSection";
 export default function Home() {
   return (
     <div className="w-full bg-[#020617] ">
-      <AuroraHero />
+      {/* <AuroraHero /> */}
       <div className="max-w-7xl mx-auto">
         <LogoSlider />
         <VideoTitleSection />
         <Review />
-        <AccordionFaq />
+        {/* <AccordionFaq /> */}
       </div>
     </div>
   );
