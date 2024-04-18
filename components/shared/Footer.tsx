@@ -72,7 +72,7 @@ const Footer = () => {
                 href="#"
                 className="px-4 text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 hover:underline"
               >
-                Contact
+                Contacts
               </a>
             </div>
           </div>

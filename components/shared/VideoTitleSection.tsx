@@ -13,7 +13,7 @@ const VideoTitleSection = () => {
         <p className="text-xl md:font-semibold text-white text-center max-w-2xl">
           With more volunteers and more volunteer opportunities than any other
           service, VolunteerMatch is how good people and good causes get
-          connected.
+          connected .
         </p>
       </div>
       <div className="mt-6 h-[200px] md:h-[300px] w-fit md:w-[50vh] mx-auto">
