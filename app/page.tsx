@@ -1,5 +1,5 @@
 import AccordionFaq from "@/components/shared/AccordionFaq";
-import { AuroraHero } from "@/components/shared/HeroSection";
+// import { AuroraHero } from "@/components/shared/HeroSection";
 import LogoSlider from "@/components/shared/LogoSlider";
 import Review from "@/components/shared/Review";
 import VideoTitleSection from "@/components/shared/VideoTitleSection";
@@ -12,7 +12,7 @@ export default function Home() {
         <LogoSlider />
         <VideoTitleSection />
         <Review />
-        {/* <AccordionFaq /> */}
+        <AccordionFaq />
       </div>
     </div>
   );
