@@ -1,8 +1,23 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Space_Grotesk, Poppins } from "next/font/google";
 import "./globals.css";
+import { ClerkProvider } from "@clerk/nextjs";
+import Header from "@/components/shared/Header";
+import Footer from "@/components/shared/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-spaceGrotesk",
+});
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-poppins",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +31,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${inter.className} ${spaceGrotesk.variable} ${poppins.variable} `}
+      >
+        <ClerkProvider>
+          <div className="bg-[#020617] sticky top-0 z-40">
+            <Header />
+          </div>
+
+          {children}
+          <Footer />
+        </ClerkProvider>
+      </body>
     </html>
   );
 }
